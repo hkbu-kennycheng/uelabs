@@ -1,12 +1,14 @@
 # Lab 1 - Beginning Unreal Engine
 
-As you can see from the demonstrations, **Unreal Engine** is very powerful computer graphic engine, which is designed for professionals like game developers, film producers and civil engineers. Now, it's time to get our hands dirty and start development with Unreal Engine.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qC5KtatMcUw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+As you can see from the demonstration, **Unreal Engine** is very powerful computer graphic engine, which is designed for professionals like game developers, film producers and civil engineers. Now, it's time to get our hands dirty and start development with Unreal Engine.
 
 ## My first Unreal project
 
-Let's download the `UE01.zip` from our course-room. Then, start **Unreal Engine** editor and open the extracted `UE01` folder. Create a new **Film** project with name **ue01**. Please use **Blank** as template, and select **No Starter content**. It would load faster without Starter content
+Let's download the [`UE01.zip`](https://raw.githubusercontent.com/hkbu-kennycheng/uelabs/master/lab1/UE01.zip) from our course-room. Then, start **Unreal Engine** editor and open the extracted `UE01` folder. Create a new **Film** project with name **ue01**. Please use **Blank** as template, and select **No Starter content**. It would load faster without Starter content
 
-![](https://drive.google.com/uc?export=download&id=11GlwUcoNsvTIMsvavRtnKzv9LKgbDNdl)
+![](https://raw.githubusercontent.com/hkbu-kennycheng/uelabs/master/lab1/new%20project.png)
 
 
 - Place Actors panel
@@ -24,7 +26,7 @@ Let's download the `UE01.zip` from our course-room. Then, start **Unreal Engine*
 
 ## Scene
 
-**Scene** is a concept in film, and games. The basic component in a scene consisting of light source, camera and actor. In **Unreal Engine**, a scene is called ** Level**. The blank template provide us more than the essential components, so that it looks cool. Let's take a look at the Main Level.
+**Scene** is a concept in film, and games. The basic component in a scene consists of light source, camera and actor. In **Unreal Engine**, a scene is called ** Level**. The blank template provide us more than the essential components, so that it looks cool. Let's take a look at the Main Level.
 
 ### Components in the Main level
 
@@ -45,15 +47,15 @@ Let's download the `UE01.zip` from our course-room. Then, start **Unreal Engine*
 
 Please click on the grean **Add New** button in **Content Browser**.
 
-![](https://drive.google.com/uc?export=download&id=1IO_uJlyvZPlGJsOJsaS27Ml05VwI91nk)
+![](https://raw.githubusercontent.com/hkbu-kennycheng/uelabs/master/lab1/MyProject%20-%20Unreal%20Editor%203_8_2020%207_30_31%20am.png)
 
 Clicking on  **Level**, then select **Empty Level**.
 
-![](https://drive.google.com/uc?export=download&id=1TSmMVuw9DV8kY91aoqmccai75EKEOs2m)
+![](https://raw.githubusercontent.com/hkbu-kennycheng/uelabs/master/lab1/New%20Level%203_8_2020%206_45_04%20am.png)
 
 We name the new Level as **NewWorld**. Please double click to open it. As you could see, it is showing a dark scene because of no actor and light source within the scene.
 
-![](https://drive.google.com/uc?export=download&id=1XTZbL5fP6pabfMb-38OP9UpVBAqrZn1N)
+![](https://raw.githubusercontent.com/hkbu-kennycheng/uelabs/master/lab1/newworld.png)
 
 
 ## Loading External Materials
@@ -64,13 +66,13 @@ Materials are resources used in your project. It could be 3D models, textures, i
 ### Import texture for Orochimaru
 Unreal engine supports various texture file format. To import model texture file, please **drag and drop** **orochimaru-texture.png** file to **Content browser**. After that, you need to  **right click**, then **Create Material**.
 
-![](https://drive.google.com/uc?export=download&id=1qvRbYJZASIrtS_3vHwzWrbisbHoXlRIk)
+![](https://raw.githubusercontent.com/hkbu-kennycheng/uelabs/master/lab1/MyProject%20-%20Unreal%20Editor%203_8_2020%207_29_55%20am.png)
 
 ### Import 3D model of Orochimaru
 
 For 3D models, Unreal Engine supports FBX file format. After you **drop the FBX file in Content browser**, there would be a option dialog.
 
-![](https://drive.google.com/uc?export=download&id=11Oo3qHFrD7UuTRNKrywXmu1ZqtHoXdCM)
+![](https://raw.githubusercontent.com/hkbu-kennycheng/uelabs/master/lab1/FBX%20Import%20Options%201_8_2020%201_46_58%20am.png)
 
 Please adjust the following options:(You need to **expend the Mesh section**)
 
@@ -86,11 +88,11 @@ Then simply click **Import** to import it as static mesh object.
 
 In order to have a nice appearance for Orochimaru, we need to map corresponding texture for the model.
 
-![](https://drive.google.com/uc?export=download&id=1SZFKDtiZO_H9JX_6eCnWn1OEqm7_Ir-O)
+![](https://raw.githubusercontent.com/hkbu-kennycheng/uelabs/master/lab1/orochimaru%203_8_2020%207_46_09%20am.png)
 
 Please select **Orochimaru-texture_Mat** as Material in the **first Material slot**.
 
-![](https://drive.google.com/uc?export=download&id=1lIaCt_vYiL9d-VYex73z_5JA_IpxDSQC)
+![](https://raw.githubusercontent.com/hkbu-kennycheng/uelabs/master/lab1/orochimaru%203_8_2020%208_02_42%20am.png)
 
 After that, please remember to click **save** button on top left corner.
 
@@ -99,7 +101,7 @@ After that, please remember to click **save** button on top left corner.
 
 We now try to make a simple scene by adding the essential components to the scene.
 
-![](https://drive.google.com/uc?export=download&id=1nFu5oAJgZKlyguqxAls7ovLCF4hZFt5Z)
+![](https://raw.githubusercontent.com/hkbu-kennycheng/uelabs/master/lab1/orc.png)
 
 ### Adding Orochimaru to Scene
 
@@ -111,10 +113,7 @@ Please simply drag a **point light** to the scene from Place Actor panel.
 
 ### Adding Camera
 
-Please drag a  **Player Start** to the scene from Place Actor panel.
-
-
-
+Please drag a **Player Start** to the scene from Place Actor panel.
 
 ## Exercise 1
 
@@ -134,11 +133,11 @@ Blueprint is a **visual scripting system** used in Unreal Engine. It is a **node
 
 To add a Blueprint class, please click on the green **Add New** button in **Content Browser**.
 
-![](https://drive.google.com/uc?export=download&id=10wQtTznmUnZCj_chVLJHxy34z0gDdNsH)
+![](https://raw.githubusercontent.com/hkbu-kennycheng/uelabs/master/lab1/MyProject%20-%20Unreal%20Editor%203_8_2020%207_30_36%20am.png)
 
 Please select **Actor** and name it as **MovingSnake**.
 
-![](https://drive.google.com/uc?export=download&id=1L-uLK670_GlufSoQ9uaKJt9n8PBLuW1C)
+![](https://raw.githubusercontent.com/hkbu-kennycheng/uelabs/master/lab1/Pick%20Parent%20Class%203_8_2020%208_25_15%20am.png)
 
 Please **double-click to open it** after created.
 
@@ -146,7 +145,7 @@ Please **double-click to open it** after created.
 
 Please add a **Static Mesh** component by clicking the grenn **Add Component** button in top left **Content** panel. Then name it as **Snake**.
 
-![](https://drive.google.com/uc?export=download&id=1Gxt1z8e5uyQUkDRz960y5Y4VcoSS5_yw)
+![](https://raw.githubusercontent.com/hkbu-kennycheng/uelabs/master/lab1/MovingSnake%203_8_2020%208_40_46%20am.png)
 
 After that, Please select **snake** as static mesh in **Static Mesh section** of the right panel.
 
@@ -154,7 +153,7 @@ After that, Please select **snake** as static mesh in **Static Mesh section** of
 
 Before the program the snake to move, let's take a look to the **Event Graph**.
 
-![](https://drive.google.com/uc?export=download&id=1jXC37gZyr38rFpMT6NoeXq-aV2F6VVPr)
+![](https://raw.githubusercontent.com/hkbu-kennycheng/uelabs/master/lab1/MovingSnake%203_8_2020%206_24_39%20am.png)
 
 - Event Begin Play
     - This event is triggered for all Actors when the game is started,
@@ -178,7 +177,7 @@ Please click on `+` button in **My Blueprint** panel on the left. Name it as `in
 
 ### Setting variable value at **Event Begin Play**
 
-![](https://drive.google.com/uc?export=download&id=1_g-90tFUd9dsBS7IyYS1mGUIjaQy2jsD)
+![](https://raw.githubusercontent.com/hkbu-kennycheng/uelabs/master/lab1/MovingSnake%203_8_2020%206_34_04%20am.png)
 
 Here are the steps for creating above programming graph.
 
@@ -190,7 +189,7 @@ Here are the steps for creating above programming graph.
 
 ### Random snake location in Event tick
 
-![](https://drive.google.com/uc?export=download&id=15DkHpUvtFHE8UjlfjY_IiyCHdjfq-yG6)
+![](https://raw.githubusercontent.com/hkbu-kennycheng/uelabs/master/lab1/random-snake-location.png)
 
 Here are the steps for creating above programming graph.
 
@@ -212,7 +211,7 @@ Here are the steps for creating above programming graph.
 After that, remember to click **compile** and  **save** before closing it.
 
 <video width="800" height="480" controls>
-    <source src="https://drive.google.com/uc?export=download&id=1Bz9ABNS-61jUSfVl5mpf52_xYLa52I0L" type="video/mp4" />
+    <source src="https://raw.githubusercontent.com/hkbu-kennycheng/uelabs/master/lab1/MyProject%20-%20Unreal%20Editor 2020-08-03%2009-17-41.mp4" type="video/mp4" />
 </video>
  
 ## Exercises 2
@@ -220,7 +219,7 @@ After that, remember to click **compile** and  **save** before closing it.
 Move the point light and change color to simulate a **glowing flame** effect.
 
 <video width="800" height="480" controls>
-    <source src="https://drive.google.com/uc?export=download&id=1kOWhJbE5vKWBT6YomHcFYcmYqoFxh4i7" type="video/mp4" />
+    <source src="https://raw.githubusercontent.com/hkbu-kennycheng/uelabs/master/lab1/MyFirstProject%20-%20Unreal%20Editor%202020-08-03%2006-11-20.mp4" type="video/mp4" />
 </video>
 
 Don't forget to submit your work to our course room.
