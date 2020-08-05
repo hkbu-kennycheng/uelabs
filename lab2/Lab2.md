@@ -142,7 +142,9 @@ Let's visit NormalMap-Online (http://cpetry.github.io/NormalMap-Online/) and sim
 
 Here is another option for you to download user-made texture. You could found completely free texture image for modeling different materials on [https://cc0textures.com/](https://cc0textures.com/).
 
-<iframe src="https://cc0textures.com/list?sort=Popular" style="width:100%; height:500px" border=0></iframe>
+![](https://raw.githubusercontent.com/hkbu-kennycheng/uelabs/master/lab2/Search%20Results%20on%20CC0%20Textures%20-%20Google%20Chrome%205_8_2020%208_31_25%20am.png)
+
+<!-- <iframe src="https://cc0textures.com/list?sort=Popular" style="width:100%; height:500px" border=0></iframe> -->
 
 Let's **choose one to download** as you like and **import to your project**. Each texture zip would contains base color image, normal map, displacement map, ambient occlusion and roughness map / specular map.
 
@@ -173,7 +175,7 @@ World Displacement works very much like World Position Offset, but it uses Tesse
 
 Please find the setting in the **Details panel** on the left.
 
-Let's try is out with the imported displacement map by the following graph. Please note that, the **Distance** node is a **ScalarParam**.
+Let's try it out with the imported displacement map by the following graph. Please note that, the **Distance** node is a **ScalarParam**.
 
 ![](https://docs.unrealengine.com/Images/Engine/Rendering/Materials/MaterialInputs/DisplacementNetwork.webp)
 
