@@ -88,7 +88,7 @@ We could create the color bands by thresholding the dot product.
 
 Let's **create a new material with naruto texture** and take a look to the following shader graph.
 
-![](https://raw.githubusercontent.com/hkbu-kennycheng/uelabs/master/lab3/naruto-texture_Mat_tone%207_8_2020%208_38_55%20am.png)
+![](https://raw.githubusercontent.com/hkbu-kennycheng/uelabs/lab3/naruto-texture_Mat_tone%207_8_2020%2010_00_57%20am.png)
 
 Here are steps for creating above shader graph.
 
