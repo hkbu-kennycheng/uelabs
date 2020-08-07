@@ -72,6 +72,8 @@ Here are the steps for creating above graph.
 4. Drag from **right** pin of **Round** node to somewhere, search for **Ceil** and select it.
 5. Drag from **right** pin of **Ceil** node to **Base Color** and **Emissive Color** optionally.
 
+![](https://raw.githubusercontent.com/hkbu-kennycheng/uelabs/lab3/MyProject6%20-%20Unreal%20Editor%207_8_2020%207_07_35%20am.png)
+
 This is an example demonstrating how to mask color using **Component Mask**. After masking the Red channel, it would retain only Green and Blue. It is monotone without any color. Finally we convert the value to 1 or 0 with **Round** and **Ceil**. So that it only remain white and black.
 
 ## Basic Toon / Cel shader
