@@ -72,7 +72,7 @@ Here are the steps for creating above graph.
 4. Drag from **right** pin of **Round** node to somewhere, search for **Ceil** and select it.
 5. Drag from **right** pin of **Ceil** node to **Base Color** and **Emissive Color** optionally.
 
-![](https://raw.githubusercontent.com/hkbu-kennycheng/uelabs/lab3/MyProject6%20-%20Unreal%20Editor%207_8_2020%207_07_35%20am.png)
+![](https://github.com/hkbu-kennycheng/uelabs/blob/master/lab3/MyProject6%20-%20Unreal%20Editor%207_8_2020%207_07_35%20am.png?raw=true)
 
 This is an example demonstrating how to mask color using **Component Mask**. After masking the Red channel, it would retain only Green and Blue. It is monotone without any color. Finally we convert the value to 1 or 0 with **Round** and **Ceil**. So that it only remain white and black.
 
@@ -90,7 +90,7 @@ We could create the color bands by thresholding the dot product.
 
 Let's **create a new material with naruto texture** and take a look to the following shader graph.
 
-![](https://raw.githubusercontent.com/hkbu-kennycheng/uelabs/lab3/naruto-texture_Mat_tone%207_8_2020%2010_00_57%20am.png)
+![](https://github.com/hkbu-kennycheng/uelabs/blob/master/lab3/naruto-texture_Mat_tone%207_8_2020%209_27_44%20am.png?raw=true)
 
 Here are steps for creating above shader graph.
 
@@ -119,4 +119,6 @@ We created a **2 bands toon shader** using **color mask**. By using **Lerp opera
 ## Exercise 1
 
 Please try to combine Color Masking and Toon shader to create a better 月讀 effect.
+
+![](https://github.com/hkbu-kennycheng/uelabs/blob/master/lab3/MyProject6%20-%20Unreal%20Editor%207_8_2020%2010_13_49%20am.png)
 
