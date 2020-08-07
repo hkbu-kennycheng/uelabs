@@ -120,5 +120,5 @@ We created a **2 bands toon shader** using **color mask**. By using **Lerp opera
 
 Please try to combine Color Masking and Toon shader to create a better 月讀 effect.
 
-![](https://github.com/hkbu-kennycheng/uelabs/blob/master/lab3/MyProject6%20-%20Unreal%20Editor%207_8_2020%2010_13_49%20am.png)
+![](https://github.com/hkbu-kennycheng/uelabs/blob/master/lab3/MyProject6%20-%20Unreal%20Editor%207_8_2020%2010_13_49%20am.png?raw=true)
 
