@@ -1,4 +1,4 @@
-# Lab2 Solar System and Texture Mapping
+# Lab2 Solar System and Basic shader attribute
 
 # Solar System
 
@@ -136,51 +136,3 @@ Let's try it out by adding Solar to Level. Please adjust the scalar to make it r
     <source src="https://raw.githubusercontent.com/hkbu-kennycheng/uelabs/master/lab2/MyProject3%20-%20Unreal%20Editor%202020-08-05%2006-36-55.mp4" type="video/mp4" />
 </video>
 
-## Texture Mapping
-
-Let's visit NormalMap-Online (http://cpetry.github.io/NormalMap-Online/) and simply provide any image. This web app is able to generate all the useful maps for you by uploading photo to the website. Simply select each map from the middle panel and hit Download. 
-
-Here is another option for you to download user-made texture. You could found completely free texture image for modeling different materials on [https://cc0textures.com/](https://cc0textures.com/).
-
-![](https://raw.githubusercontent.com/hkbu-kennycheng/uelabs/master/lab2/Search%20Results%20on%20CC0%20Textures%20-%20Google%20Chrome%205_8_2020%208_31_25%20am.png)
-
-<!-- <iframe src="https://cc0textures.com/list?sort=Popular" style="width:100%; height:500px" border=0></iframe> -->
-
-Let's **choose one to download** as you like and **import to your project**. Each texture zip would contains base color image, normal map, displacement map, ambient occlusion and roughness map / specular map.
-
-Please **create material** using the base color image. 
-
-### Normal
-
-![](https://docs.unrealengine.com/Images/Resources/ContentExamples/MaterialNodes/1_9/1_9_Normal.webp)
-
-Normal is used to provide significant physical detail to the surface by perturbing the "normal," or facing direction, of each individual pixel. It require you to provide a normal map for the material.
-
-![](https://raw.githubusercontent.com/hkbu-kennycheng/uelabs/master/lab2/Bricks051_2K_Color_Mat%205_8_2020%209_23_41%20am.png)
-
-Let's drag it out from **Normal** to somewhere, search for **Texture Sample** and select it. In the **Details panel** on the left, select the **imported normal map file** for the texture.
-
-
-### World Position Offset
-
-![](https://docs.unrealengine.com/Images/Resources/ContentExamples/MaterialNodes/1_10/1_10_WPO.webp)
-
-World Position Offset input allows for the vertices of a mesh to be manipulated in world space by the Material. This is useful for making objects move, change shape, rotate, and a variety of other effects. This is useful for things like ambient animation.
-
-### World displacement
-
-World Displacement works very much like World Position Offset, but it uses Tessellation vertices rather than the base vertices of the mesh. In order for this to be enabled, the Tessellation property on the Material must be set to something other than No Tessellation.
-
-![](https://raw.githubusercontent.com/hkbu-kennycheng/uelabs/master/lab2/tessellation.png)
-
-Please find the setting in the **Details panel** on the left.
-
-Let's try it out with the imported displacement map by the following graph. Please note that, the **Distance** node is a **ScalarParam**.
-
-![](https://docs.unrealengine.com/Images/Engine/Rendering/Materials/MaterialInputs/DisplacementNetwork.webp)
-
-### Tessellation Multiplier
-
-![](https://docs.unrealengine.com/Images/Resources/ContentExamples/MaterialNodes/1_12/1_12_TessMult.webp)
-
-Tessellation Multiplier controls the amount tessellation along the surface, allowing more detail to be added where needed. It's depends on World displacement setting.
