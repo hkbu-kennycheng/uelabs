@@ -1,6 +1,8 @@
-# Lab4: Game development, Character animations and inputs
+# Lab4: Character animations and input handling
 
-In  today's lab, we would create animations for the Naruto character and implement the shadow clone effect in the original story. Please create a new project using `Game -> Third Person` template.
+In  today's lab, we would create animations for the Naruto character and implement the shadow clone effect in the original story. Please create a new project using **`Game -> Third Person`** template.
+
+![](https://github.com/hkbu-kennycheng/uelabs/blob/master/lab4/lab4.png?raw=true)
 
 # Game architecture in Unreal Engine
 
@@ -149,6 +151,8 @@ Let's select **Mesh (Inherit)** in **Component** panel on the top left corner. P
 
 # Shadow Clone Technique
 
+![](https://staticr1.blastingcdn.com/media/photogallery/2016/3/6/660x290/b_620x273/kage-bunshin-no-jutsu-de-naruto_632927.jpg)
+
 Today, I'm going to show you the Shadow Clone Technique. The shadow clone technique isn't a skill in computer graphics, instead it is a symbolic jutsu (忍術) in the Naruto manga series.
 
 ## Handling Inputs
@@ -163,7 +167,7 @@ In **Binding** section, click on **`+`** button besides **`Action Mappings`**. P
 
 ### Adding event node in Event Graph
 
-![](https://github.com/hkbu-kennycheng/uelabs/blob/master/lab4/ThirdPersonCharacter%2010_8_2020%209_51_36%20am.png)
+![](https://github.com/hkbu-kennycheng/uelabs/blob/master/lab4/ThirdPersonCharacter%2010_8_2020%209_51_36%20am.png?raw=true)
 
 <!-- Here are the steps for above graph.
 
