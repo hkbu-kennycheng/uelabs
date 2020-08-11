@@ -91,7 +91,7 @@ Please enable the following options:
 - **Import Mesh**
 - **Import Animations**
 
-### Exercise
+### Exercise 1
 
 Please **import the texture and material** by **copy-and-paste files in content folder** from our **previous project**.
 
@@ -169,10 +169,24 @@ In **Binding** section, click on **`+`** button besides **`Action Mappings`**. P
 
 ![](https://github.com/hkbu-kennycheng/uelabs/blob/master/lab4/ThirdPersonCharacter%2010_8_2020%209_51_36%20am.png?raw=true)
 
-<!-- Here are the steps for above graph.
+
+Here are the steps for above graph.
 
 1. Right-click on blank area, search for **Fire** and select it.
-2. 
+2. Drag from **Pressed** pin of **InputAction Fire** to somewhere, search for **Add Skeleton Mesh Component** and select it
+3. Drag from right **execution** pin of **Add Skeleton Mesh Component** node to somewhere, search for **Set Skeleton Mesh** and select it
+4. In the **New Mesh** pin of **Set Skeleton Mesh** node, please select the naruto skeleton from the pull down menu
+5. Connect **Target**  pin of **Set Skeleton Mesh** node to **Return value** pin of **Add Skeleton Mesh Component**
+6. Drag from right **execution** pin of **Set Skeleton Mesh** node to somewhere, search for **AddRelativeRotation** and select it.
+7. Connect the **Target** pin of **AddRelativeRotation** to **Return Value** pin of **Add Skeleton Mesh Component**
+8. Drag from **Delta Rotation** pin of **AddRelativeRotation**, search for **Get Relative Rotation** and select it.
+9. Drag from **Target** pin of **Get Relative Rotation** to somewhere, search for **Get mesh** and select it.
+10. Drag from right **execution** pin of **Get Relative Rotation** to somewhere, search for **Set Anim Instance Class** and select it
+11. In **New Class** pin of **Set Anim Instance Class**, please select the **Animation Blueprint** that we have **created earlier in this lab**
+12. Connect **Target** pin of **Set Anim Instance Class** to **Return Value** pin of **Add Skeleton Mesh Component**
+13. Drag from right **execution** pin of **Set Anim Instance Class** to somewhere, search for **AddLocalOffset** and select it
+14. Connect the **Target** pin of **AddLocalOffset** to **Return Value** of **Add Skeleton Mesh Component**
 
--->
+### Execrise 2
 
+Complete the graph connecting to **Delta Location** pin of **AddLocalOffset**, it just similar to the graph we have done in first lab.
