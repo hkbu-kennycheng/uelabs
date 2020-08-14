@@ -1,6 +1,6 @@
 # Lab 6 Development and Virtual reality
 
-We would use the
+We would use the our previous project, making it support VR and develop it to our mobile devices.
 
 # Android Development Setup
 
